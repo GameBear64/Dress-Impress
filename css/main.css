@@ -1,0 +1,130 @@
+body {
+    background-color: #f4f7f9;
+    color: #323b43;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+	position: absolute;
+	text-align: center;
+	top: 0;
+    width: 100%;
+    font-size: x-large;
+}
+
+nav {
+    background-color: #ced7df;
+    position: sticky;
+    top: 0;
+    text-align: left;
+    padding-left: 2%;
+    font-size: x-large;
+}
+
+nav a:link, nav a:visited {
+    float: right;
+    line-height: 200%;
+    color: #323b43;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+nav a:hover, nav a:active {
+    text-decoration: underline;
+}
+
+
+nav p {
+    line-height: 300%;
+    padding-top: 0;
+    display: inline;
+}
+
+form {
+    margin-top: 1%;
+}
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #00000056;
+    font-size: medium;
+}
+  
+input[type=submit] {
+    width: 10%;
+    background-color: #4ca8af;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 2%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: x-large;
+}
+  
+input[type=submit]:hover {
+    background-color: #4583a0;
+}
+
+section {
+    margin: 5% 0 5% 0;
+}
+
+section a:link, section a:visited {
+    background-color: #4ca8af;
+    color: white;
+    padding: 14px 25px;
+    margin-top: 1%;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+section a:hover, section a:active {
+    background-color: #4583a0;
+}
+
+article {
+    margin-top: 5%;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.flex {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex > div {
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.blue {
+    color: #4ca8af;
+}
+
+.red {
+    color: #b84c4c;
+}
+
+.larger {
+    font-size: xx-large;
+    color: #4ca8af;
+}
